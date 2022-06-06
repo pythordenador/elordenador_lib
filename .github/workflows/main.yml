@@ -47,7 +47,7 @@ jobs:
           branch: main
 
           commit_options: '--no-verify --signoff'
-          file_pattern: src/*.js tests/*.js *.php
+          file_pattern: *
           repository: .
           commit_user_name: My GitHub Actions Bot # defaults to "github-actions[bot]"
           commit_user_email: my-github-actions-bot@example.org # defaults to "github-actions[bot]@users.noreply.github.com"
