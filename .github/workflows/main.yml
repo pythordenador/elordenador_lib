@@ -53,4 +53,5 @@ jobs:
           commit_user_email: my-github-actions-bot@example.org # defaults to "github-actions[bot]@users.noreply.github.com"
           commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
 
+          skip_dirty_check: true
 
