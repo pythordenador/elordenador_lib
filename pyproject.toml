@@ -1,13 +1,12 @@
 [tool.poetry]
 name = "elordenador_lib"
-version = "0.1.0"
+version = "0.1.1"
 description = "elordenador's libraries"
 authors = ["Daniel <danilacasito8@gmail.com>"]
 license = "GGPLv3"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 

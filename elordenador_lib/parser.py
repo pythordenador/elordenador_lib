@@ -6,3 +6,7 @@ def replace(text,sel ,separator):
         message = message + i + sel
     rep = len(sel)
     return message[:len(message)-rep]
+
+def versionParse(version):
+    splitted = version.split(".")
+    return splitted
